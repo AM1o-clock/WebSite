@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* ページ全体のスタイル
+------------------------------------------ */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #000;
+  line-height: 1;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+/* 共通スタイル
+------------------------------------------ */
+
+/* ヘッダー
+------------------------------------------ */
+
+/*cover
+------------------------------------------ */
+
+
+/*フッター
+------------------------------------------ */
