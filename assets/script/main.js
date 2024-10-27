@@ -1,11 +1,11 @@
-var hamburger = $('.hamburger-menu');
+var hamburger = $('.hamburger__menu');
 
 // OPEN/CLOSEボタンをクリックしたら
-$('.hamburger-button').on('click', function() {
+$('.hamburger__button').on('click', function() {
   // console.log('click');
 
   // .hamburgerの表示・非表示を繰り返す
-  hamburger.toggleClass('hamburger-menu-active');
+  hamburger.toggleClass('hamburger__menu--active');
 
 });
 
@@ -14,7 +14,7 @@ $(window).on('resize', function() {
   // console.log('resize');
 
   // ハンバーガーメニューを閉じる
-  hamburger.removeClass('hamburger-menu-active');
+  hamburger.removeClass('hamburger__menu--active');
 });
 
 
