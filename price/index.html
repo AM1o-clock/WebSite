@@ -11,7 +11,7 @@
     <meta property="og:title" content="持続可能な未来農業を実現 | Kirameki Farm">
     <meta property="og:description" content="Kirameki Farmは革新的な農業機器とビッグデータ、自動運転のロボット、リジェネラティブ農業を駆使して持続可能な農業を目指すイノベーション企業です。次世代の子どもたちに環境に優しい未来農業を残すために、効率化と環境配慮を融合した活動を推進しています。">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://example.com/spec/">
+    <meta property="og:url" content="https://example.com/price/">
     <meta property="og:locale" content="ja_JP">
 
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
@@ -19,17 +19,172 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../assets/style/main.css">
   </head>
 
   <body>
+    <header class="header">
+      <div class="header flex">
+        <div class="header__container container flex">
+          <a href="/">
+            <h1><img src="../assets/image/logo.png" alt="Kirameki Farm"></h1>
+          </a>
+
+          <button type="button" class="hamburger__button flex">
+            <span class="hamburger__button--bar"></span>
+            <span class="hamburger__button--bar"></span>
+            <span class="hamburger__button--bar"></span>
+          </button>
+
+          <div class="hamburger__menu">
+            <nav class="header__nav container">
+              <ul class="header__nav--list flex">
+                <li class="nav__list--item list__item--1 no-pc"><a href="/">トップ</a></li>
+                <li class="nav__list--item list__item--2 here"><a href="/price">価格・スペック</a></li>
+                <li class="nav__list--item list__item--3"><a href="../faq">よくあるご質問</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="cover__main_visual container flex">
+        <img src="../assets/image/spec_mainVisual_sp.png" alt="" class="no-pc"><img src="../assets/image/spec_mainVisual_pc.png" alt="" class="no-sp">
+        <div class="cover__main_visual--text">価格・スペック</div>
+        <ul class="cover__main_visual--breadcrumb flex">
+          <li class="main_visual__breadcrumb--item"><a href="../">トップ</a></li>
+          <li class="main_visual__breadcrumb--item"><a href="/price">価格・スペック</a></li>
+        </ul>
+      </div>
+      <div class="price__container">
+
+        <section class="price__gallery">
+          <div class="price__gallery--container">
+            <h2 class="price__title">ギャラリー</h2>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="../assets/image/spec_gallery_1.png" alt="" class="swiper__item">
+                </div>
+                <div class="swiper-slide">
+                  <img src="../assets/image/spec_gallery_2.png" alt="" class="swiper__item">
+                </div>
+                <div class="swiper-slide">
+                  <img src="../assets/image/spec_gallery_3.png" alt="" class="swiper__item">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="price__feature">
+          <div class="price__feature--container">
+            <h2 class="price__title">特長</h2>
+            <div class="price-feature__content flex">
+              <div class="price-feature__content--item price-feature__item--1 flex">
+                <img src="../assets/image/spec_feature_1_sp.png" alt="" class="no-pc">
+                <img src="../assets/image/spec_feature_1_pc.png" alt="" class="no-sp">
+                <p class="price-feature__item--text">自動操縦が可能で、短時間で大量の農作物を監視、収穫、播種、散布などの作業ができます。</p>
+              </div>
+              <div class="price-feature__content--item price-feature__item--2 flex">
+                <img src="../assets/image/spec_feature_2_sp.png" alt="" class="no-pc">
+                <img src="../assets/image/spec_feature_2_pc.png" alt="" class="no-sp">
+                <p class="price-feature__item--text">高精度のカメラやセンサーを搭載しており、正確な土壌・作物の情報を収集でき、水や肥料などの資源を適切に配分できます。</p>
+              </div>
+              <div class="price-feature__content--item price-feature__item--3 flex">
+                <img src="../assets/image/spec_feature_3_sp.png" alt="" class="no-pc">
+                <img src="../assets/image/spec_feature_3_pc.png" alt="" class="no-sp">
+                <p class="price-feature__item--text">必要な場所にだけ肥料や農薬を散布することができます。これにより、農薬や肥料の過剰使用が抑えられ、環境負荷やコスト削減に繋がります。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="price__price">
+          <div class="price__price--container">
+            <h2 class="price__title">メーカー希望小売価格</h2>
+            <div class="price__price--text"><span class="price__text--amount">¥550,000</span><span class="price__text--tax">（税込）</span></div>
+          </div>
+        </section>
+
+        <section class="price__spec">
+          <div class="price__spec--container">
+            <h2 class="price__title">スペック</h2>
+            <div class="price__spec--name">機体</div>
+            <ul class="price__spec--content">
+              <li class="spec__content--item spec__item--1">
+                <div class="spec__item--title">ドローン名</div>
+                <div class="spec__item--text">アグリ・ファルコン</div>
+              </li>
+              <li class="spec__content--item spec__item--2">
+                <div class="spec__item--title">製品番号</div>
+                <div class="spec__item--text">AGF-100</div>
+              </li>
+              <li class="spec__content--item spec__item--3">
+                <div class="spec__item--title">飛行時間</div>
+                <div class="spec__item--text">60 分</div>
+              </li>
+              <li class="spec__content--item spec__item--4">
+                <div class="spec__item--title">最大積載量</div>
+                <div class="spec__item--text">5 kg</div>
+              </li>
+              <li class="spec__content--item spec__item--5">
+                <div class="spec__item--title">操作距離</div>
+                <div class="spec__item--text">3 km</div>
+              </li>
+              <li class="spec__content--item spec__item--6">
+                <div class="spec__item--title">機体重量</div>
+                <div class="spec__item--text">8 kg</div>
+              </li>
+              <li class="spec__content--item spec__item--7">
+                <div class="spec__item--title">機体寸法</div>
+                <div class="spec__item--text">150 x 150 x 40 cm</div>
+              </li>
+              <li class="spec__content--item spec__item--8">
+                <div class="spec__item--title">機能・特徴</div>
+                <div class="spec__item--text">自動操縦、植物生育モニタリング、農薬散布</div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+
+      <section class="price__contact">
+        <div class="price__contact--container">
+          <a href="/contact" class="button__contact">お問い合わせ</a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="footer flex">
+        <nav class="footer__nav">
+          <ul class="footer__nav--list flex">
+            <li><a href="/price">価格・スペック</a></li>
+            <li><a href="../faq">よくあるご質問</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
 
 
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/assets/script/main.js"></script>
 
   </body>
