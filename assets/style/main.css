@@ -1417,6 +1417,10 @@ li {
   margin-bottom: 4.8rem;
 }
 
+.price__price--text {
+  color: #168352;
+}
+
 .price__text--amount {
   font-family: "Montserrat", sans-serif;
   font-size: 3.2rem;
